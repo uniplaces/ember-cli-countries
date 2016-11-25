@@ -1,6 +1,20 @@
-# Ember-cli-countries
+# ember-cli-countries
 
-This README outlines the details of collaborating on this Ember addon.
+This is an addon with some utils and helpers to get country names and calling codes given the country code.
+
+## Usage
+
+* `ember install ember-cli-countries`
+
+## Utils
+
+* `getCountryName (countryCode)` returns the country name (currently in EN_GB) given the country code
+* `getCountryCallingCode (countryCode)` returns the country calling code (e.g. +1) given the country code
+
+## Helpers
+
+* `{{countryName code}}`
+* `{{callingCode code}}`
 
 ## Installation
 
@@ -16,7 +30,6 @@ This README outlines the details of collaborating on this Ember addon.
 
 ## Running Tests
 
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
 * `ember test`
 * `ember test --server`
 
