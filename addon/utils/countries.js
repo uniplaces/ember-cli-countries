@@ -27,3 +27,11 @@ export function getCountryCallingCode(countryCode) {
 
   return callingCode;
 }
+
+export function getAllCountryNames() {
+  return Countries.toKeyValueJson();
+}
+
+export function getAllCountryCallingCodes() {
+  return CallingCodes.toKeyValueJson();
+}
