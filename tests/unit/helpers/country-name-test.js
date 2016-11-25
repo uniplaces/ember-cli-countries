@@ -13,3 +13,11 @@ test('it works', function(assert) {
 
   assert.equal(name, EXPECTED_NAME);
 });
+
+test('it fails', function(assert) {
+  assert.expect(1);
+
+  let name = countryName();
+
+  assert.equal(name, null);
+});

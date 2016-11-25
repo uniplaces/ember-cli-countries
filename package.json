@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-countries",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "ember-cli addon to get countries related information",
   "directories": {
     "doc": "doc",

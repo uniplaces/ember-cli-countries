@@ -5,7 +5,7 @@ const { Helper, isEmpty } = Ember;
 
 export function countryName(countryCode) {
   if (isEmpty(countryCode)) {
-      return 'not-found';
+      return null;
   }
 
   return Countries[countryCode];

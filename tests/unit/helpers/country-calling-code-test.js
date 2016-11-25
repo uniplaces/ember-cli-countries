@@ -13,3 +13,11 @@ test('it works', function(assert) {
 
   assert.equal(cc, EXPECTED_CALLING_CODE);
 });
+
+test('it fails', function(assert) {
+  assert.expect(1);
+
+  let cc = countryCallingCode();
+
+  assert.equal(cc, null);
+});
