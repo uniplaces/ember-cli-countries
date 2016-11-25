@@ -6,6 +6,7 @@ module('Unit | Utility | countries');
 const TEST_CODE = 'PT';
 const EXPECTED_NAME = 'Portugal';
 const EXPECTED_CALLING_CODE = '+351';
+const EXPECTED_TOTAL = 244;
 
 test('getCountryName works', function(assert) {
   assert.expect(1);
@@ -37,4 +38,20 @@ test('getCountryCallingCode works', function(assert) {
   let callingCode = countries.getCountryCallingCode('');
 
   assert.equal(callingCode, null);
+});
+
+test('getAllCountryNames works', function(assert) {
+  assert.expect(1);
+
+  let names = countries.getAllCountryNames();
+
+  assert.equal(names.length, EXPECTED_TOTAL);
+});
+
+test('getAllCountryCallingCodes works', function(assert) {
+  assert.expect(1);
+
+  let callingCodes = countries.getAllCountryCallingCodes();
+
+  assert.equal(callingCodes.length, EXPECTED_TOTAL);
 });
