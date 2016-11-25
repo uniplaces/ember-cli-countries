@@ -14,7 +14,7 @@ This is an addon with some utils and helpers to get country names and calling co
 ## Helpers
 
 * `{{countryName code}}`
-* `{{callingCode code}}`
+* `{{countryCallingCode code}}`
 
 ## Installation
 
