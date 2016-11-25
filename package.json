@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-countries",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "ember-cli addon to get countries related information",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -15,7 +15,7 @@
   "engines": {
     "node": ">= 0.12.0"
   },
-  "author": "",
+  "author": "Uniplaces",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
