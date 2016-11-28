@@ -53,7 +53,7 @@ export default Type.create({
   CR: 'Costa Rica',
   CU: 'Cuba',
   CV: 'Cabo Verde',
-  CW: 'CuraÃ§ao',
+  CW: 'Curaçao',
   CX: 'Christmas Island',
   CY: 'Cyprus',
   CZ: 'Czech Republic',
@@ -229,7 +229,6 @@ export default Type.create({
   TZ: 'Tanzania, United Republic of',
   UA: 'Ukraine',
   UG: 'Uganda',
-//UK: 'United Kingdom', -- for United Kingdom we use the code 'GB'
   US: 'United States',
   UY: 'Uruguay',
   UZ: 'Uzbekistan',
