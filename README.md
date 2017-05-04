@@ -1,5 +1,10 @@
 # ember-cli-countries
 
+[![npm version](https://badge.fury.io/js/ember-cli-countries.svg)](https://badge.fury.io/js/ember-cli-countries)
+[![Build Status](https://travis-ci.org/uniplaces/ember-cli-countries.svg?branch=master)](https://travis-ci.org/uniplaces/ember-cli-countries)
+[![dependencies](https://david-dm.org/uniplaces/ember-cli-countries.svg)](https://david-dm.org/uniplaces/ember-cli-countries)
+[![devDependencies](https://david-dm.org/uniplaces/ember-cli-countries/dev-status.svg)](https://david-dm.org/uniplaces/ember-cli-countries?type=dev)
+
 This is an addon with some utils and helpers to get country names and calling codes given the country code.
 
 ## Usage
@@ -16,25 +21,8 @@ This is an addon with some utils and helpers to get country names and calling co
 * `{{countryName code}}`
 * `{{countryCallingCode code}}`
 
-## Installation
+## Contributing
 
-* `git clone <repository-url>` this repository
-* `cd ember-cli-countries`
-* `npm install`
-* `bower install`
-
-## Running
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-## Running Tests
-
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+Any contribution is welcome. Please read our [guidelines](CONTRIBUTING.md).
+However, if your contribution involves adding a new feature, please open an issue before to
+share your plan and agree the details of the feature before starting implementing it.
