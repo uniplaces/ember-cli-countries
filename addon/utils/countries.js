@@ -18,13 +18,13 @@ export function getCountryName(countryCode) {
 
 export function getCountryShortCode(countryCode) {
   let country = Countries[countryCode];
-  
+
   if (!country) {
     Logger.error(`The country with code ${countryCode} was not found`);
-  
+
     return null;
   }
-  
+
   return countryCode.substring(0, 2);
 }
 

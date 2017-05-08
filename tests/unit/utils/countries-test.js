@@ -23,7 +23,7 @@ test('getCountryName returns null and logs error on empty string', function(asse
   assert.expect(2);
 
   let oldError = Logger.error;
-  let expectedErrorMessage = 'The country with code  was not found'
+  let expectedErrorMessage = 'The country with code  was not found';
   Logger.error = function(message) {
     assert.equal(message, expectedErrorMessage);
   };
@@ -39,7 +39,7 @@ test('getCountryName returns null and logs error on inexistent country code', fu
   assert.expect(2);
 
   let oldError = Logger.error;
-  let expectedErrorMessage = 'The country with code en_PT was not found'
+  let expectedErrorMessage = 'The country with code en_PT was not found';
   Logger.error = function(message) {
     assert.equal(message, expectedErrorMessage);
   };
