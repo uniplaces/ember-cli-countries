@@ -18,8 +18,8 @@ This is an addon with some utils and helpers to get country names and calling co
 
 ## Helpers
 
-* `{{countryName code}}`
-* `{{countryCallingCode code}}`
+* `{{country-name code}}`
+* `{{country-calling-code code}}`
 
 ## Contributing
 
