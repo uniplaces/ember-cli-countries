@@ -1,7 +1,6 @@
-import Ember from 'ember';
+import Helper from '@ember/component/helper';
+import { isEmpty } from '@ember/utils';
 import CallingCodes from 'ember-cli-countries/enums/calling-codes';
-
-const { Helper, isEmpty } = Ember;
 
 export function countryCallingCode(countryCode) {
   if (isEmpty(countryCode)) {
