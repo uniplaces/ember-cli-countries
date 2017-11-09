@@ -1,7 +1,6 @@
-import Ember from 'ember';
+import Helper from '@ember/component/helper';
+import { isEmpty } from '@ember/utils';
 import Countries from 'ember-cli-countries/enums/countries';
-
-const { Helper, isEmpty } = Ember;
 
 export function countryName(countryCode) {
   if (isEmpty(countryCode)) {
