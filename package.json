@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-countries",
   "version": "0.1.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Ember addon with some utils and helpers to get country names and calling codes given the country code.",
   "keywords": [
     "ember-addon"
   ],
@@ -11,7 +11,10 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uniplaces/ember-cli-countries"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
