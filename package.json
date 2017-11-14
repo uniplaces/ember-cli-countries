@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-countries",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Ember addon with some utils and helpers to get country names and calling codes given the country code.",
   "keywords": [
     "ember-addon"
