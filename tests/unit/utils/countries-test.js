@@ -9,7 +9,7 @@ const { Logger } = Ember;
 const TEST_CODE = 'PT';
 const EXPECTED_NAME = 'Portugal';
 const EXPECTED_CALLING_CODE = '+351';
-const EXPECTED_TOTAL = 244;
+const EXPECTED_TOTAL = 250;
 
 test('getCountryName works', function(assert) {
   assert.expect(1);
