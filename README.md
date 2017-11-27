@@ -2,6 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/ember-cli-countries.svg)](https://badge.fury.io/js/ember-cli-countries)
 [![Build Status](https://travis-ci.org/uniplaces/ember-cli-countries.svg?branch=master)](https://travis-ci.org/uniplaces/ember-cli-countries)
+[![Ember Observer Score](https://emberobserver.com/badges/ember-cli-countries.svg)](https://emberobserver.com/addons/ember-cli-countries)
 [![dependencies](https://david-dm.org/uniplaces/ember-cli-countries.svg)](https://david-dm.org/uniplaces/ember-cli-countries)
 [![devDependencies](https://david-dm.org/uniplaces/ember-cli-countries/dev-status.svg)](https://david-dm.org/uniplaces/ember-cli-countries?type=dev)
 
