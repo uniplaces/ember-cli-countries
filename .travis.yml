@@ -10,7 +10,7 @@ addons:
 cache:
   directories:
     - $HOME/.npm
-    - $HOME/.cache # includes bowers cache
+    - $HOME/.cache
 
 env:
   global:

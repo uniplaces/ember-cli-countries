@@ -15,6 +15,5 @@ ember app. You can run the website locally:
 
 ```bash
 $ npm install (or yarn install)
-$ bower install
 $ ember s
 ```
