@@ -5,14 +5,13 @@ node_js:
 
 sudo: false
 dist: trusty
-
 addons:
   chrome: stable
 
 cache:
   directories:
     - $HOME/.npm
-    - $HOME/.cache # includes bowers cache
+    - $HOME/.cache
 
 env:
   global:
