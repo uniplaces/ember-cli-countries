@@ -23,16 +23,22 @@ module.exports = {
     // node files
     {
       files: [
+        '.template-lintrc.js',
+        'ember-cli-build.js',
         'index.js',
         'testem.js',
+<<<<<<< abc20244c0cd60fdcd8498986678b732290e973b
         'ember-cli-build.js',
+=======
+>>>>>>> Update ember to 3.4
         'blueprints/*/index.js',
         'config/**/*.js',
         'tests/dummy/config/**/*.js'
       ],
       excludedFiles: [
-        'app/**',
         'addon/**',
+        'addon-test-support/**',
+        'app/**',
         'tests/dummy/app/**'
       ],
       parserOptions: {

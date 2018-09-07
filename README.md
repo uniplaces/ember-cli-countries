@@ -27,3 +27,7 @@ This is an addon with some utils and helpers to get country names and calling co
 Any contribution is welcome. Please read our [guidelines](CONTRIBUTING.md).
 However, if your contribution involves adding a new feature, please open an issue before to
 share your plan and agree the details of the feature before starting implementing it.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.md).
