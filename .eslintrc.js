@@ -17,7 +17,8 @@ module.exports = {
   },
   rules: {
     "camelcase": [0, { "properties": "never" }],
-    "no-console": ["error", { allow: ["warn", "error"] }]
+    "no-console": ["error", { allow: ["warn", "error"] }],
+    "ember-suave/no-const-outside-module-scope": "off"
   },
   overrides: [
     // node files
@@ -27,10 +28,6 @@ module.exports = {
         'ember-cli-build.js',
         'index.js',
         'testem.js',
-<<<<<<< abc20244c0cd60fdcd8498986678b732290e973b
-        'ember-cli-build.js',
-=======
->>>>>>> Update ember to 3.4
         'blueprints/*/index.js',
         'config/**/*.js',
         'tests/dummy/config/**/*.js'
