@@ -16,13 +16,16 @@ module.exports = {
     browser: true
   },
   rules: {
-    "camelcase": [0, { "properties": "never" }],
-    "no-console": ["error", { allow: ["warn", "error"] }]
+    'camelcase': [0, { 'properties': 'never' }],
+    'no-console': ['error', { allow: ['warn', 'error'] }]
   },
   overrides: [
     // node files
     {
       files: [
+        '.eslintrc.js',
+        '.template-lintrc.js',
+        'ember-cli-build.js',
         'index.js',
         'testem.js',
         'ember-cli-build.js',
